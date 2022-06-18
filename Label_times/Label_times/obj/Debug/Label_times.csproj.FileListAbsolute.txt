@@ -1,0 +1,10 @@
+C:\Users\miniz\source\repos\Label_times\Label_times\bin\Debug\Label_times.exe.config
+C:\Users\miniz\source\repos\Label_times\Label_times\bin\Debug\Label_times.exe
+C:\Users\miniz\source\repos\Label_times\Label_times\bin\Debug\Label_times.pdb
+C:\Users\miniz\source\repos\Label_times\Label_times\obj\Debug\Label_times.Properties.Resources.resources
+C:\Users\miniz\source\repos\Label_times\Label_times\obj\Debug\Label_times.csproj.GenerateResource.cache
+C:\Users\miniz\source\repos\Label_times\Label_times\obj\Debug\Label_times.csproj.CoreCompileInputs.cache
+C:\Users\miniz\source\repos\Label_times\Label_times\obj\Debug\Label_times.exe
+C:\Users\miniz\source\repos\Label_times\Label_times\obj\Debug\Label_times.pdb
+C:\Users\miniz\source\repos\Label_times\Label_times\obj\Debug\Label_times.csproj.AssemblyReference.cache
+C:\Users\miniz\source\repos\Label_times\Label_times\obj\Debug\SolarSystem.Form1.resources

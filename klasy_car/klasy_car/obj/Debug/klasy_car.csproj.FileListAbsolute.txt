@@ -1,0 +1,7 @@
+C:\Users\miniz\source\repos\klasy_car\klasy_car\bin\Debug\klasy_car.exe.config
+C:\Users\miniz\source\repos\klasy_car\klasy_car\bin\Debug\klasy_car.exe
+C:\Users\miniz\source\repos\klasy_car\klasy_car\bin\Debug\klasy_car.pdb
+C:\Users\miniz\source\repos\klasy_car\klasy_car\obj\Debug\klasy_car.csproj.AssemblyReference.cache
+C:\Users\miniz\source\repos\klasy_car\klasy_car\obj\Debug\klasy_car.csproj.CoreCompileInputs.cache
+C:\Users\miniz\source\repos\klasy_car\klasy_car\obj\Debug\klasy_car.exe
+C:\Users\miniz\source\repos\klasy_car\klasy_car\obj\Debug\klasy_car.pdb

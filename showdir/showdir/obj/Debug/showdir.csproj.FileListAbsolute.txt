@@ -1,0 +1,7 @@
+C:\Users\miniz\source\repos\showdir\showdir\obj\Debug\showdir.csproj.AssemblyReference.cache
+C:\Users\miniz\source\repos\showdir\showdir\obj\Debug\showdir.csproj.CoreCompileInputs.cache
+C:\Users\miniz\source\repos\showdir\showdir\bin\Debug\showdir.exe.config
+C:\Users\miniz\source\repos\showdir\showdir\bin\Debug\showdir.exe
+C:\Users\miniz\source\repos\showdir\showdir\bin\Debug\showdir.pdb
+C:\Users\miniz\source\repos\showdir\showdir\obj\Debug\showdir.exe
+C:\Users\miniz\source\repos\showdir\showdir\obj\Debug\showdir.pdb

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "4AZy+ugKBTneBCi/ad9x8AkpL7o/tM6NpxT64cwRU0lOMmYjwhd9WcAeYfrTo7HTVpMoMDcrbxr+uD81lNQWTQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\miniz\\source\\repos\\NumberGuesser\\NumberGuesser\\NumberGuesser.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\miniz\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
+  ],
+  "logs": []
+}

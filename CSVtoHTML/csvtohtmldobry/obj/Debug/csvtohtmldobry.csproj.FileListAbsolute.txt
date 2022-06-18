@@ -1,0 +1,7 @@
+C:\Users\miniz\source\repos\csvtohtmldobry\csvtohtmldobry\bin\Debug\csvtohtmldobry.exe.config
+C:\Users\miniz\source\repos\csvtohtmldobry\csvtohtmldobry\bin\Debug\csvtohtmldobry.exe
+C:\Users\miniz\source\repos\csvtohtmldobry\csvtohtmldobry\bin\Debug\csvtohtmldobry.pdb
+C:\Users\miniz\source\repos\csvtohtmldobry\csvtohtmldobry\obj\Debug\csvtohtmldobry.csproj.AssemblyReference.cache
+C:\Users\miniz\source\repos\csvtohtmldobry\csvtohtmldobry\obj\Debug\csvtohtmldobry.csproj.CoreCompileInputs.cache
+C:\Users\miniz\source\repos\csvtohtmldobry\csvtohtmldobry\obj\Debug\csvtohtmldobry.exe
+C:\Users\miniz\source\repos\csvtohtmldobry\csvtohtmldobry\obj\Debug\csvtohtmldobry.pdb
