@@ -5,3 +5,10 @@ C:\Users\miniz\source\repos\csvtohtmldobry\csvtohtmldobry\obj\Debug\csvtohtmldob
 C:\Users\miniz\source\repos\csvtohtmldobry\csvtohtmldobry\obj\Debug\csvtohtmldobry.csproj.CoreCompileInputs.cache
 C:\Users\miniz\source\repos\csvtohtmldobry\csvtohtmldobry\obj\Debug\csvtohtmldobry.exe
 C:\Users\miniz\source\repos\csvtohtmldobry\csvtohtmldobry\obj\Debug\csvtohtmldobry.pdb
+C:\Users\miniz\Desktop\C# Projects\CS-_Projects\CSVtoHTML\csvtohtmldobry\bin\Debug\csvtohtmldobry.exe.config
+C:\Users\miniz\Desktop\C# Projects\CS-_Projects\CSVtoHTML\csvtohtmldobry\bin\Debug\csvtohtmldobry.exe
+C:\Users\miniz\Desktop\C# Projects\CS-_Projects\CSVtoHTML\csvtohtmldobry\bin\Debug\csvtohtmldobry.pdb
+C:\Users\miniz\Desktop\C# Projects\CS-_Projects\CSVtoHTML\csvtohtmldobry\obj\Debug\csvtohtmldobry.csproj.AssemblyReference.cache
+C:\Users\miniz\Desktop\C# Projects\CS-_Projects\CSVtoHTML\csvtohtmldobry\obj\Debug\csvtohtmldobry.csproj.CoreCompileInputs.cache
+C:\Users\miniz\Desktop\C# Projects\CS-_Projects\CSVtoHTML\csvtohtmldobry\obj\Debug\csvtohtmldobry.exe
+C:\Users\miniz\Desktop\C# Projects\CS-_Projects\CSVtoHTML\csvtohtmldobry\obj\Debug\csvtohtmldobry.pdb

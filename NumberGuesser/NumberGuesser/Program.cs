@@ -2,42 +2,43 @@
 
 namespace NumberGuesser
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             GetAppInfo();
-            string name = GetUserName();
+            var name = GetUserName();
             GreetUserName(name);
 
-            Random random = new Random();
+            var random = new Random();
 
-            int correctNumber = random.Next(1,11);
-            bool correctanswer = false;
+            var correctNumber = random.Next(1, 11);
+            var correctanswer = false;
             Console.WriteLine("Zgadnij liczbe z przedziału od 1 do 10.");
 
-            while(!correctanswer)
+            while (!correctanswer)
             {
-                string input = Console.ReadLine();
+                var input = Console.ReadLine();
                 int guess;
 
-                bool isNumber =int.TryParse(input, out guess);
+                var isNumber = int.TryParse(input, out guess);
                 if (!isNumber)
                 {
                     changeColor(ConsoleColor.Yellow, "Prosze wprowadzić liczbę");
                     continue;
-
                 }
-                if(guess< 1 || guess>10)
+
+                if (guess < 1 || guess > 10)
                 {
                     changeColor(ConsoleColor.Yellow, "Prosze wprowadzić liczbę z przedziału od 1 do 10");
                     continue;
                 }
+
                 if (guess < correctNumber)
                 {
-                    changeColor(ConsoleColor.Red, "Wylosowana liczba jest większa.");                 
+                    changeColor(ConsoleColor.Red, "Wylosowana liczba jest większa.");
                 }
-                else if(guess > correctNumber)
+                else if (guess > correctNumber)
                 {
                     changeColor(ConsoleColor.Red, "Wylosowana liczba jest mniejsza.");
                 }
@@ -46,31 +47,33 @@ namespace NumberGuesser
                     correctanswer = true;
                     changeColor(ConsoleColor.Green, "Brawo prawdiłowa odpowiedź.");
                 }
-
             }
-            
         }
-        static void GetAppInfo()
-        {
-            string appName = "Zgadywanie liczb";
-            int appVersion = 1;
-            string appAuthor = "Artur Rezmer";
 
-           string info = $"[{appName}] Wersja 0.0.{appVersion}, Autor: {appAuthor}";
-           changeColor(ConsoleColor.Magenta, info);
+        private static void GetAppInfo()
+        {
+            var appName = "Zgadywanie liczb";
+            var appVersion = 1;
+            var appAuthor = "Artur Rezmer";
+
+            var info = $"[{appName}] Wersja 0.0.{appVersion}, Autor: {appAuthor}";
+            changeColor(ConsoleColor.Magenta, info);
         }
-        static string GetUserName()
+
+        private static string GetUserName()
         {
             Console.WriteLine("Jak masz na imię?");
-            string inputuserName = Console.ReadLine();
+            var inputuserName = Console.ReadLine();
             return inputuserName;
         }
-        static void GreetUserName(string name)
+
+        private static void GreetUserName(string name)
         {
-            string greet = $"Powodzenia {name}, odgadnij liczbę...";
+            var greet = $"Powodzenia {name}, odgadnij liczbę...";
             changeColor(ConsoleColor.Blue, greet);
         }
-        static void changeColor(ConsoleColor color, string message)
+
+        private static void changeColor(ConsoleColor color, string message)
         {
             Console.ForegroundColor = color;
             Console.WriteLine(message);

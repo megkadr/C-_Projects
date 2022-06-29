@@ -1,22 +1,16 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Diagnostics;
 using System.Drawing;
 using System.Drawing.Drawing2D;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Threading;
 
 namespace SolarSystem
 {
     public partial class Form1 : Form
     {
-        private double _mercuryAngle , _venusAngle, _earthAngle;
-        private int _mercuryRotationRadius, _venusRotationRadius, _earthRotationRadius;
+        private double _mercuryAngle, _venusAngle, _earthAngle;
+        private readonly int _mercuryRotationRadius;
+        private readonly int _venusRotationRadius;
+        private readonly int _earthRotationRadius;
 
         public Form1()
         {
@@ -44,38 +38,37 @@ namespace SolarSystem
 
         private void SolarSystemTimer_Tick(object sender, EventArgs e)
         {
-            Mercury_Move( 6);
+            Mercury_Move(6);
             Venus_Move(4);
             Earth_Move(10);
         }
 
-        private void Mercury_Move( double speed)
+        private void Mercury_Move(double speed)
         {
             _mercuryAngle += Math.PI / speed;
-            var x = Sun.Location.X + (_mercuryRotationRadius * Math.Cos(_mercuryAngle));
-            var y = Sun.Location.Y + (_mercuryRotationRadius * Math.Sin(_mercuryAngle));
-            Mercury.Location = new Point((int)x,(int) y);
+            var x = Sun.Location.X + _mercuryRotationRadius * Math.Cos(_mercuryAngle);
+            var y = Sun.Location.Y + _mercuryRotationRadius * Math.Sin(_mercuryAngle);
+            Mercury.Location = new Point((int)x, (int)y);
         }
 
         private void Venus_Move(double speed)
         {
             _venusAngle += Math.PI / speed;
-            var x = Sun.Location.X + (_venusRotationRadius * Math.Cos(_venusAngle));
-            var y = Sun.Location.Y + (_venusRotationRadius * Math.Sin(_venusAngle));
+            var x = Sun.Location.X + _venusRotationRadius * Math.Cos(_venusAngle);
+            var y = Sun.Location.Y + _venusRotationRadius * Math.Sin(_venusAngle);
             Venus.Location = new Point((int)x, (int)y);
         }
 
         private void Earth_Move(double speed)
         {
             _earthAngle += Math.PI / speed;
-            var x = Sun.Location.X + (_earthRotationRadius * Math.Cos(_earthAngle));
-            var y = Sun.Location.Y + (_earthRotationRadius * Math.Sin(_earthAngle));
+            var x = Sun.Location.X + _earthRotationRadius * Math.Cos(_earthAngle);
+            var y = Sun.Location.Y + _earthRotationRadius * Math.Sin(_earthAngle);
             Earth.Location = new Point((int)x, (int)y);
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
         }
 
         private void Sun_Paint(object sender, PaintEventArgs e)
@@ -105,7 +98,5 @@ namespace SolarSystem
             gp.AddEllipse(1, 1, Earth.Width - 4, Earth.Height - 4);
             Earth.Region = new Region(gp);
         }
-
-        
     }
 }

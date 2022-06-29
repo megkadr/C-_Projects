@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\miniz\\source\\repos\\NumberGuesser\\NumberGuesser\\NumberGuesser.csproj": {}
+    "C:\\Users\\miniz\\Desktop\\C# Projects\\CS-_Projects\\NumberGuesser\\NumberGuesser\\NumberGuesser.csproj": {}
   },
   "projects": {
-    "C:\\Users\\miniz\\source\\repos\\NumberGuesser\\NumberGuesser\\NumberGuesser.csproj": {
+    "C:\\Users\\miniz\\Desktop\\C# Projects\\CS-_Projects\\NumberGuesser\\NumberGuesser\\NumberGuesser.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\miniz\\source\\repos\\NumberGuesser\\NumberGuesser\\NumberGuesser.csproj",
+        "projectUniqueName": "C:\\Users\\miniz\\Desktop\\C# Projects\\CS-_Projects\\NumberGuesser\\NumberGuesser\\NumberGuesser.csproj",
         "projectName": "NumberGuesser",
-        "projectPath": "C:\\Users\\miniz\\source\\repos\\NumberGuesser\\NumberGuesser\\NumberGuesser.csproj",
+        "projectPath": "C:\\Users\\miniz\\Desktop\\C# Projects\\CS-_Projects\\NumberGuesser\\NumberGuesser\\NumberGuesser.csproj",
         "packagesPath": "C:\\Users\\miniz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\miniz\\source\\repos\\NumberGuesser\\NumberGuesser\\obj\\",
+        "outputPath": "C:\\Users\\miniz\\Desktop\\C# Projects\\CS-_Projects\\NumberGuesser\\NumberGuesser\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\miniz\\AppData\\Roaming\\NuGet\\NuGet.Config",
